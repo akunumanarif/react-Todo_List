@@ -6,9 +6,9 @@ function App() {
   const [todos, setTodos] = useState([]);
   const [todo, setTodo] = useState("");
 
-  function handleDeleteAll() {
-    setTodos([])
-  }
+  // function handleDeleteAll() {
+  //   setTodos([])
+  // }
 
   function handleSubmit(e) {
     e.preventDefault()
