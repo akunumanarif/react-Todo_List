@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@900&display=swap');
+
 .App {
   text-align: center;
 }
@@ -11,6 +13,106 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+
+
+.header {
+  display: block;
+  align-content: center;
+  background-color: aqua;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  
+}
+
+.myForm{
+  padding-top: 10px;
+  
+}
+
+.allText {
+  border: darkblue;
+  background-color: darkgray;
+  box-sizing: content-box;
+}
+
+/* .sticky-thc {
+    th {
+      position: sticky;
+    }
+  margin-left: auto;
+  margin-right: auto;
+  
+} */
+
+.boxHeader{
+  width: 250px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border: 1px solid gainsboro;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.headerTask{
+  background-color: rgb(12, 97, 100);
+  /* width: 50
+  %; */
+  color: white;
+  grid-row: 4;
+  border-radius: 5px;
+  width: 40%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  
+  
+}
+
+.isiTask{
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.deleteAll {
+  margin-left: 12.5em;
+}
+
+.allText {
+  margin-top: 1em;
+  
+}
+
+.check-box {
+  
+  float: right;
+}
+
+.delete-todo {
+  float: right;
+}
+
+button {
+  color: white;
+  background-color: rgb(25, 14, 168);
+  border-radius: 10px;
+  margin-left: 10px;
+  
+}
+
+input {
+  border-radius: 3px;
+  border-color: gainsboro;
+  border-style: groove;
 }
 
 .App-header {
